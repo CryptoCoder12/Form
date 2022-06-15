@@ -1,0 +1,93 @@
+  .card-image {
+    position: absolute;
+    width: 50%;
+    left: 0rem;
+    z-index: -1;
+    max-height: 100%;
+    top: 0px;
+    bottom: 0px;
+  }
+  .card-body {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 18rem;
+    left: 0rem;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .form-body {
+    top: 0px;
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    background: white;
+    color: black;
+    right: 0rem;
+    text-align: left;
+    font-size: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 64px 36px 18px;
+  }
+  .form {
+      padding: 12px 36px;
+      background-color: darkolivegreen;
+      box-shadow: 0 5px 5px olive;
+  }
+  .form > p {
+      font-weight: 600;
+      font-size: 1.4rem;
+      color: black;
+  }
+  #signup-form {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      color: black;
+  }
+  #signup-form > div {
+      width: 40%;
+      min-width: 150px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+  }
+  #signup-form p {
+      margin: 0;
+  }
+  #signup-form input {
+      width: 100%;
+      background-color: darkolivegreen;
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 4px 6px;
+      font-size: 1rem;
+      margin-top: 3px;
+      box-shadow: 0px 2px 2px olive;
+ }
+ .submit-sec {
+     padding: 12px 36px;
+     color: darkolivegreen;
+ }
+ .submit-sec a {
+     color: darkolivegreen;
+ }
+ button[type="submit"] {
+     border: none;
+     background-color: darkolivegreen;
+     color: black;
+     padding: 7px 30px;
+     border-radius: 1em;
+     box-shadow: 0px 2px 2px olive;
+ }
+ .credits {
+     position: absolute;
+     color: white;
+     bottom: 1px;
+     left: 16.5rem;
+ }
